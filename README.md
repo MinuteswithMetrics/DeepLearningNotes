@@ -5,5 +5,5 @@ Notes of Deep Learning Book
 
 + Chapter 1: [Introduction](https://github.com/lonelyandrew/DeepLearningNotes/blob/master/chapter1.md#chapter-1-introduction)
 + Part I: Applied Math and Machine Learning Basics
-    + Chapter 2: [Linear Algebra]()
+    + Chapter 2: [Linear Algebra](https://github.com/lonelyandrew/DeepLearningNotes/blob/master/chapter2.md#chapter-2-linear-algebra)
 
