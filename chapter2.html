@@ -1,0 +1,1344 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<style>
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+body {
+  background-color: white;
+}
+
+.markdown-body {
+  min-width: 200px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;;word-wrap: break-word; word-break: break-all;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body .highlight {
+  background: #fff;
+}
+
+.markdown-body .highlight .mf,
+.markdown-body .highlight .mh,
+.markdown-body .highlight .mi,
+.markdown-body .highlight .mo,
+.markdown-body .highlight .il,
+.markdown-body .highlight .m {
+  color: #945277;
+}
+
+.markdown-body .highlight .s,
+.markdown-body .highlight .sb,
+.markdown-body .highlight .sc,
+.markdown-body .highlight .sd,
+.markdown-body .highlight .s2,
+.markdown-body .highlight .se,
+.markdown-body .highlight .sh,
+.markdown-body .highlight .si,
+.markdown-body .highlight .sx,
+.markdown-body .highlight .s1 {
+  color: #df5000;
+}
+
+.markdown-body .highlight .kc,
+.markdown-body .highlight .kd,
+.markdown-body .highlight .kn,
+.markdown-body .highlight .kp,
+.markdown-body .highlight .kr,
+.markdown-body .highlight .kt,
+.markdown-body .highlight .k,
+.markdown-body .highlight .o {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .kt {
+  color: #458;
+}
+
+.markdown-body .highlight .c,
+.markdown-body .highlight .cm,
+.markdown-body .highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+
+.markdown-body .highlight .cp,
+.markdown-body .highlight .cs {
+  color: #999;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .cs {
+  font-style: italic;
+}
+
+.markdown-body .highlight .n {
+  color: #333;
+}
+
+.markdown-body .highlight .na,
+.markdown-body .highlight .nv,
+.markdown-body .highlight .vc,
+.markdown-body .highlight .vg,
+.markdown-body .highlight .vi {
+  color: #008080;
+}
+
+.markdown-body .highlight .nb {
+  color: #0086B3;
+}
+
+.markdown-body .highlight .nc {
+  color: #458;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .no {
+  color: #094e99;
+}
+
+.markdown-body .highlight .ni {
+  color: #800080;
+}
+
+.markdown-body .highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .nf {
+  color: #945277;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .nn {
+  color: #555;
+}
+
+.markdown-body .highlight .nt {
+  color: #000080;
+}
+
+.markdown-body .highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+.markdown-body .highlight .gd {
+  color: #000;
+  background-color: #fdd;
+}
+
+.markdown-body .highlight .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+
+.markdown-body .highlight .ge {
+  font-style: italic;
+}
+
+.markdown-body .highlight .gr {
+  color: #aa0000;
+}
+
+.markdown-body .highlight .gh {
+  color: #999;
+}
+
+.markdown-body .highlight .gi {
+  color: #000;
+  background-color: #dfd;
+}
+
+.markdown-body .highlight .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+
+.markdown-body .highlight .go {
+  color: #888;
+}
+
+.markdown-body .highlight .gp {
+  color: #555;
+}
+
+.markdown-body .highlight .gs {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .gt {
+  color: #aa0000;
+}
+
+.markdown-body .highlight .ow {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .w {
+  color: #bbb;
+}
+
+.markdown-body .highlight .sr {
+  color: #017936;
+}
+
+.markdown-body .highlight .ss {
+  color: #8b467f;
+}
+
+.markdown-body .highlight .bp {
+  color: #999;
+}
+
+.markdown-body .highlight .gc {
+  color: #999;
+  background-color: #EAF2F5;
+}
+
+.markdown-body .octicon {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  float: left;
+  margin: 0.3em 0 0.25em -1.6em;
+  vertical-align: middle;
+}
+table td{ word-wrap: break-word !important; word-break: break-all !important; }
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment,
+.diff .hljs-header {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-doctag,
+.tex .hljs-formula {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rule .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body,
+.hljs-name {
+  color: #008080;
+}
+
+.hljs-regexp {
+  color: #009926;
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #990073;
+}
+
+.hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.diff .hljs-change {
+  background: #0086b3;
+}
+
+.hljs-chunk {
+  color: #aaa;
+}
+
+
+</style>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: { equationNumbers: { autoNumber: "AMS" } }});</script>
+<style> @media print{ .hljs{overflow: visible; word-wrap: break-word !important;} }</style></head><body><div class="markdown-body">
+<h1 id="toc_0">Chapter 2: Linear Algebra</h1>
+
+<h2 id="toc_1">2.1 Scalars, Vectors, Matrices and Tensors</h2>
+
+<ul>
+<li><strong>Scalars</strong>: A scalar is just a single number.
+
+<ul>
+<li>Notation: \(s \in \mathbb{R}\).</li>
+</ul></li>
+<li><strong>Vectors</strong>: A vector is an array of numbers.
+
+<ul>
+<li>Notations
+
+<ul>
+<li>vector: \(\boldsymbol{x}\).</li>
+<li>element: \(x_1\).</li>
+<li>set: \(S = \{1, 3, 6\}\), \(\boldsymbol{x}_{S} = \{x_1, x_3, x_6\}\).</li>
+<li>complement: \(\boldsymbol{x}_{-S}\) is the vector containing all of the elements of \(\boldsymbol{x}\) except for \(x_1\), \(x_3\) and \(x_6\).</li>
+</ul></li>
+</ul></li>
+<li><strong>Matrices</strong>: A matrix is a 2-D array of numbers.
+
+<ul>
+<li>Notations
+
+<ul>
+<li>matrix: \(\boldsymbol{A}\).</li>
+<li>element: \(A_{i, j}\).</li>
+<li>row: \(\boldsymbol{A}_{i,:}\).</li>
+<li>column: \(\boldsymbol{A}_{:,j}\).</li>
+</ul></li>
+</ul></li>
+<li><strong>Tensors</strong>: A tensor is an array with more than two axes.
+
+<ul>
+<li>Notations
+
+<ul>
+<li>tensor: \(\boldsymbol{\mathsf{A}}\)</li>
+<li>element: \(\mathsf{A}_{i, j, k}\)</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>The <strong>transpose</strong> of a matrix is the mirror image of the matrix across a diagonal line, called the <strong>main diagonal</strong>, running down and to the right, starting from its upper left corner, \((\boldsymbol{A}^\top)_{i, j} = A_{j, i}\).</p>
+
+<p>We can add matrices to each other, as long as they have the same shape, just by adding their corresponding elements: \(\boldsymbol{C} = \boldsymbol{A} + \boldsymbol{B}\), where \(C_{i, j} = A_{i, j} + B{i, j}\).</p>
+
+<p>We can also add scalar to a matrix or multiply a matrix by a scalar, just by performing that operation on each element of a matrix: \(\boldsymbol{D} = \alpha \cdot \boldsymbol{B} + c\) where \(D_{i, j} = \alpha \cdot B_{i, j} + c\).</p>
+
+<p>In the context of deep learning, we also use some less conventional notation. We allow the addition of matrix and a vector, yielding another matrix: \(\boldsymbol{C} = \boldsymbol{A} + \boldsymbol{b}\), where \(C_{i, j} = A_{i, j} + b_{j}\). In other words, the vector \(\boldsymbol{b}\) is added to each row of the matrix. The shorthand eliminates the need to define a matrix with \(\boldsymbol{b}\) copied into each row before doing the addition. The implicit copying of \(\boldsymbol{b}\) to many locations is called <strong>broadcasting</strong>.</p>
+
+<h2 id="toc_2">2.2 Multiplying Matrices and Vectors</h2>
+
+<p>The <strong>matrix product</strong> of matrices \(\boldsymbol{A}\) and \(\boldsymbol{B}\) is a third matrix \(\boldsymbol{C}\). In order for this product to be defined, \(\boldsymbol{A}\) must have the same number of columns as \(\boldsymbol{B}\) has rows. If \(\boldsymbol{A}\) is of shape \(m \times n\) and \(\boldsymbol{B}\) is \(n \times p\), then \(\boldsymbol{C}\) is of shape \(m \times p\).</p>
+
+<p>The product operation is defined by<br/>
+\[<br/>
+C_{i,j} = \sum_{k}{A_{i,k}B_{k,j}}.<br/>
+\]</p>
+
+<p>The product of the individual elements is called the <strong>element-wise product</strong> or <strong>Hadamard product</strong>, and is denoted as \(\boldsymbol{A} \odot \boldsymbol{B}\).</p>
+
+<p>The <strong>dot product</strong> between two vectors \(\boldsymbol{x}\) and \(\boldsymbol{y}\) of the same dimensionality is the matrix product \(\boldsymbol{x}^\top\boldsymbol{y}\).</p>
+
+<p>Properties:</p>
+
+<ul>
+<li>Matrix multiplication is distributive:\[\boldsymbol{A}(\boldsymbol{B} + \boldsymbol{C}) = \boldsymbol{AB} + \boldsymbol{AC}.\]</li>
+<li>Matrix multiplication is associative: \[\boldsymbol{A}(\boldsymbol{BC}) = (\boldsymbol{AB})\boldsymbol{C}.\]</li>
+<li>Matrix multiplication is <em>not</em> commutative, however the dot product between two vectors is commutative:\[\boldsymbol{x}^\top\boldsymbol{y} = \boldsymbol{y}^\top\boldsymbol{x}.\]</li>
+<li>The transpose of a matrix product has a simple form:\[(\boldsymbol{AB})^\top = \boldsymbol{B}^\top\boldsymbol{A}^\top.\]</li>
+</ul>
+
+<h2 id="toc_3">2.3 Identity and Inverse Matrices</h2>
+
+<p>An identity matrix is a matrix that does not change any vector when we multiply that vector by that matrix. We denote the identity matrix that preserves \(n\)-dimensional vectors as \(\boldsymbol{I}_n\).</p>
+
+<p>This is \(\boldsymbol{I}_3\):</p>
+
+<p>\[<br/>
+        \begin{bmatrix}<br/>
+        1 &amp; 0 &amp; 0 \\<br/>
+        0 &amp; 1 &amp; 0 \\<br/>
+        0 &amp; 0 &amp; 1 \\<br/>
+        \end{bmatrix}<br/>
+\]</p>
+
+<p>The <strong>matrix inverse</strong> of \(\boldsymbol{A}\) is denoted as \(\boldsymbol{A}^{-1}\), and it is defined as the matrix such that \[\boldsymbol{A}^{-1}\boldsymbol{A} = \boldsymbol{I}_{n}.\]</p>
+
+<p>\(\boldsymbol{A}^{-1}\) is primarily useful as a theoretical tool, and should not actually be used in practice for most software applications. Because \(\boldsymbol{A}^{-1}\) can be represented with only limited precision on a digital computer, algorithms that make use of the value of \(\boldsymbol{b}\) can usually obtain more accurate estimates of \(\boldsymbol{x}\).</p>
+
+<h2 id="toc_4">2.4 Linear Dependence and Span</h2>
+
+<p>In order for \(\boldsymbol{A}^{-1}\) to exist, equation<br/>
+\[<br/>
+\boldsymbol{Ax}=\boldsymbol{b}<br/>
+\tag{1}\label{1}<br/>
+\]<br/>
+must have exactly one solution for every value of \(\boldsymbol{b}\). However, it is also possible for the system of equations to have no solutions or infinitely many solutions for some value of \(\boldsymbol{b}\). It is not possible to have more than one but less than infinitely many solutions for a particular \(\boldsymbol{b}\).</p>
+
+<p>A <strong>linear combination</strong> of some set of vectors \(\{\boldsymbol{v}^{(1)},\dots,\boldsymbol{v}^{(n)}\}\) is given by multiplying each vector \(\boldsymbol{v}^{(i)}\) by a corresponding scalar coefficient and adding the result:<br/>
+\[<br/>
+\sum_{i}{c_i\boldsymbol{v}^{(i)}}<br/>
+\]</p>
+
+<p>The <strong>span</strong> of a set of vectors is the set of all points obtainable by linear combination of the original vectors.</p>
+
+<p>Determining whether \(\boldsymbol{Ax} = \boldsymbol{b}\) has a solution thus amounts to testing whether \(\boldsymbol{b}\) is in the span of the columns of \(\boldsymbol{A}\). This particular span is known as the <strong>column space</strong> or the <strong>range</strong> of \(\boldsymbol{A}\).</p>
+
+<p>In order for the system \eqref{1} to have a solution for all values of \(\boldsymbol{b} \in \mathbb{R}^{m}\), we therefore require that the column space of \(\boldsymbol{A}\) be all of \(\mathbb{R}^m\). The requirement implies immediately that \(\boldsymbol{A}\) must have at least \(m\) columns, i.e., \(n \geq m\).</p>
+
+<p>Having \(n \geq m\) is only a necessary condition for every point to have a solution. It is not a sufficient condition, because it is possible for the columns to re redundant. Consider a \(2 \times 2\) matrix where both of the columns are identical. This has the same column space as a \(2 \times 1\) matrix containing only one copy of the replicated column.</p>
+
+<p>This kind of redundancy is known as <strong>linear dependence</strong>. A set of vectors is <strong>linear independent</strong> if no vector in the set is a linear combination of the other vectors.</p>
+
+<p>In order for the matrix to have an inverse, we need to ensure that eqution \eqref{1} has <em>at most</em> one solution for each value of \(\boldsymbol{b}\). To do so, we need to ensure that the matrix has at most \(m\) columns. This means that the matrix must be <strong>square</strong>, that is, we require that \(m = n\) and that all of the columns must be linearly independent. A square matrix with linearly dependent columns is known as <strong>singular</strong>.</p>
+
+<p>It is also possible to define an inverse that is multiplied on the right:<br/>
+\[<br/>
+\boldsymbol{A}\boldsymbol{A}^{-1} = \boldsymbol{I}.<br/>
+\]</p>
+
+<p>For square matrices, the left inverse and right inverse are equal.</p>
+
+<h2 id="toc_5">2.5 Norms</h2>
+
+<p>In machine learning, we usually measure the size of vectors using a function called a <strong>norm</strong>. Norms are functions  mapping vectors to non-negative values.</p>
+
+<p>The \(L^p\) norm is given by<br/>
+\[<br/>
+\|\boldsymbol{x}\|_{p} = \left(\sum_{i}{|x_i|^{p}}\right)^{\frac{1}{p}}<br/>
+\]</p>
+
+<p>for \(p \in \mathbb{R}\), \(p \geq 1\).</p>
+
+<p>The \(L^2\) norm, with \(p=2\), is known as the <strong>Euclidean norm</strong>. The \(L^2\) norm is used so frequently in machine learning that it is often denoted simply as \(\|x\|\), with subscript \(2\) omitted. It is also common to measure the size of a vector using the squared \(L^2\) norm, which can be calculated simply as \(\boldsymbol{x}^\top\boldsymbol{x}\).</p>
+
+<p>The \(L^1\) norm may be simplified to<br/>
+\[<br/>
+\|x\|_1 = \sum_{i}{|x_i|}<br/>
+\]</p>
+
+<p>The \(L^1\) norm is commonly used in machine learning when the difference between zero and nonzero elements is very important. Every time an element of \(\boldsymbol{x}\) moves away from \(0\) by \(\epsilon\), the \(L^1\) norm increases by \(\epsilon\).</p>
+
+<p>We sometimes measure the size of the vector by counting its number of nonzero elements. Some authors refer to this function as the &quot;\(L^0\) norm&quot;, but this is incorrect terminology. The \(L^1\) norm is often used as a substitute for the number of nonzero entries.</p>
+
+<p>One other norm that commonly arises in machine learning is the \(L^{\infty}\) norm, also known as the <strong>max norm</strong>:</p>
+
+<p>\[<br/>
+\|x\|_{\infty} = \max_{i}|x_i|.<br/>
+\]</p>
+
+<p>Sometimes we may also wish to measure the size of a matrix. In the context of deep learning, the most common way to do this is with the otherwise obscure <strong>Frobenius norm</strong>:<br/>
+\[<br/>
+\|A\|_{F} = \sqrt{\sum_{i, j}{A_{i, j}^2}}<br/>
+\]</p>
+
+<p>which is analogous to the \(L^2\) norm of a vector.</p>
+
+<p>The dot product of two vectors can be rewritten in terms of norms:<br/>
+\[<br/>
+\boldsymbol{x}^\top\boldsymbol{y} = \|x\|_2\,\|y\|_2\,cos\theta<br/>
+\]<br/>
+where \(\theta\) is the angle between \(\boldsymbol{x}\) and \(\boldsymbol{y}\).</p>
+
+<h2 id="toc_6">2.6 Special Kinds of Matrices and Vectors</h2>
+
+<p>A matrix \(\boldsymbol{D}\) is <strong>diagonal</strong> if and only if \(D_{i, j}=0\) for all \(i \neq j\). We write \(\text{diag}(\boldsymbol{v})\) to denote a square diagonal matrix whose diagonal entries are given by the entries of the vector \(\boldsymbol{v}\).</p>
+
+<p>Diagonal matrices are of interest in part because multiplying by a diagonal matrix is very computationally efficient. To compute \(\text{diag}(\boldsymbol{v})\boldsymbol{x}\), we only need to scale each element \(x_i\) by \(v_i\). In other words, \(\text{diag}(\boldsymbol{v})\boldsymbol{x} = \boldsymbol{v} \odot \boldsymbol{x}\). Inverting a square diagonal matrix is also efficient. The inverse exists only if every diagonal entry is nonzero, and in that case, \(\text{diag}(\boldsymbol{v})^{-1} = \text{diag}([1/\boldsymbol{v}_1, \dots, 1/\boldsymbol{v}_n]^\top)\).</p>
+
+<p>A <strong>symmetric</strong> matrix is any matrix that is equal to its own transpose:<br/>
+\[<br/>
+A = A^\top.<br/>
+\]</p>
+
+<p>A <strong>unit vector</strong> is a vector with <strong>unit norm</strong>:<br/>
+\[<br/>
+\|x\|_{2} = 1.<br/>
+\]</p>
+
+<p>A vector \(\boldsymbol{x}\) and a vector \(\boldsymbol{y}\) are <strong>orthogonal</strong> to each other if \(\boldsymbol{x}^\top\boldsymbol{y} = 0\). If both vectors have nonzero norm, this means that they are at a \(90\) degree angle to each other. In \(\mathbb{R}^n\), at most \(n\) vectors may be mutually orthogonal with nonzero norm. If the vectors are not only orthogonal but also have unit norm, we call them <strong>orthonormal</strong>.</p>
+
+<p>An <strong>orthogonal matrix</strong> is a square matrix whose rows are mutually <em>orthonormal</em> and whose columns are mutually orthonormal:</p>
+
+<p>\[<br/>
+\boldsymbol{A}^\top\boldsymbol{A} = \boldsymbol{A}\boldsymbol{A}^\top = \boldsymbol{I}.<br/>
+\]</p>
+
+<p>This implies that<br/>
+\[<br/>
+A^{-1} = A^\top<br/>
+\]</p>
+
+<p>so orthogonal matrices are of interest because their inverse is very to compute.</p>
+
+<h2 id="toc_7">2.7 Eigendecomposition</h2>
+
+<p>In <strong>eigendecomposition</strong>, we decompose a matrix into a set of <em>eigenvectors</em> and <em>eigenvalues</em>.</p>
+
+<p>An <strong>eigenvector</strong> of a square matrix \(\boldsymbol{A}\) is a non-zero vector \(\boldsymbol{v}\) such that multiplication by \(\boldsymbol{A}\) alters only the scale of \(\boldsymbol{v}\):<br/>
+\[<br/>
+\boldsymbol{Av} = \lambda \boldsymbol{v}.<br/>
+\]</p>
+
+<p>The scalar \(\lambda\) is known as the <strong>eigenvalue</strong> corresponding to this eigenvector. (One can also find a <strong>left eigenvector</strong> such that \(\boldsymbol{v}^\top\boldsymbol{A} = \lambda \boldsymbol{v}^\top\)).</p>
+
+<p>If \(\boldsymbol{v}\) is an eigenvector of \(\boldsymbol{A}\), then so is any rescaled vector \(s\boldsymbol{v}\) for \(s \in \mathbb{R}\), \(s \neq 0\). Moreover, \(s\boldsymbol{v}\) still has the same eigenvalue. For this reason, we usually only look for <em>unit eigenvectors</em>.</p>
+
+<p>Suppose that a matrix \(\boldsymbol{A}\) has \(n\) linearly independent eigenvectors, \(\{\boldsymbol{v}^{(1)}, \dots, \boldsymbol{v}^{(n)}\}\), with corresponding eigenvalues \(\{\lambda_1, \dots, \lambda_n\}\). We may concatenate all of the eigenvectors to form a matrix \(\boldsymbol{V}\) with one eigenvector per column: \(\boldsymbol{V} = [\boldsymbol{v}^{(1)}, \dots, \boldsymbol{v}^{(n)}]\). Likewise, we can concatenate the eigenvalues to form a vector \(\boldsymbol{\lambda} = [\lambda_1, \dots, \lambda_n]^\top\). The <strong>eigendecomposition</strong> of \(\boldsymbol{A}\) is then given by<br/>
+\[<br/>
+\boldsymbol{A = \boldsymbol{V}\text{diag}(\boldsymbol{\lambda})\boldsymbol{V}^{-1}}<br/>
+\]</p>
+
+<p>Not every matrix can be decomposed into eigenvalues and eigenvectors. In some cases, the decomposition exists, but may involve <em>complex</em> rather than real numbers. Specifically, every real symmetric matrix can be decomposed into an expression using only real-valued eigenvectors and eigenvalues:<br/>
+\[<br/>
+\boldsymbol{A} = \boldsymbol{Q \Lambda Q^\top}<br/>
+\]<br/>
+where \(\boldsymbol{Q}\) is an orthogonal matrix composed of eigenvectors of \boldsymbol{A}, and \(\boldsymbol{\Lambda}\) is a diagonal matrix. The eigenvalue \(\Lambda_{i, i}\) is associated with the eigenvector in the column \(i\) of \(\boldsymbol{Q}\), denoted as \(\boldsymbol{Q}_{:,i}\). Because \(\boldsymbol{Q}\) is an orthogonal matrix, we can think of \(\boldsymbol{A}\) as scaling space by \(\lambda_{i}\) in direction \(\boldsymbol{v}^{(i)}\).</p>
+
+<p>While any real symmetric matrix \(\boldsymbol{A}\) is guaranteed to have an eigendecomposition, the eigendecomposition may not be unique. If any two or more eigenvectors share the same eigenvalue, then any set of orthogonal vectors lying in their span are also eigenvectors with that eigenvalue. By convention, we usually sort the entries of \(\boldsymbol{\Lambda}\) in descending order. Under this convention, the eigendecomposition is unique only if all of the eigenvalues are unique.</p>
+
+<p>The matrix is singular if and only if any of the eigenvalues are zero.</p>
+
+<p>A matrix whose eigenvalues are all positive is called <strong>positive definite</strong>. A matrix whose eigenvalues are all positive or zero-values is called <strong>positive semi-definite</strong>. Likewise, if all eigenvalues are negative, the matrix is called <strong>negative definite</strong>, and if all eigenvalues are negative or zero-valued, it is <strong>negative-semidefinite</strong>. Positive semidefinite matrices are interesting because they guarantee that \(\forall \boldsymbol{x}\), \(\boldsymbol{x}^{\top}\boldsymbol{Ax} \geq0\)</p>
+
+<h2 id="toc_8">2.8 Singular Value Decomposition</h2>
+
+<p>The singular value decomposition (SVD) provides another way to factorize a matrix, into <strong>singular vectors</strong> and <strong>singular values</strong>. Every real matrix has a singular value decomposition, but the same is not true of the eigenvalue decomposition. For example, if a matrix is not square, the eigendecomposition is not defined, and we must use a singular value decomposition instead.</p>
+
+<p>In singular value decomposition, we will write \(\boldsymbol{A}\) as a product of three matrices:<br/>
+\[<br/>
+\boldsymbol{A} = \boldsymbol{UDV^\top}<br/>
+\]</p>
+
+<p>Suppose that \(\boldsymbol{A}\) is an \(m \times n\) matrix. Then \(\boldsymbol{U}\) is defined to be an \(m \times m\) matrix, \(\boldsymbol{D}\) to be an \(m \times n\) matrix, and \(\boldsymbol{V}\) to be an \(n \times n\) matrix.</p>
+
+<p>The matrices \(\boldsymbol{U}\) and \(\boldsymbol{V}\) are both defined to be <em>orthogonal</em> matrices. The matrix \(\boldsymbol{D}\) is defined to be a <em>diagonal</em> matrix. Note that \(\boldsymbol{D}\) is not necessarily square.</p>
+
+<p>The elements along the diagonal of \(\boldsymbol{D}\) are known as the <strong>singular values</strong> of the matrix \(\boldsymbol{A}\). The columns of \(\boldsymbol{U}\) are known as the <strong>left-singular vectors</strong>. The columns of \(\boldsymbol{V}\) are known as the <strong>right-singular vectors</strong>.</p>
+
+<p>We can actually interpret the singular value decomposition of \(\boldsymbol{A}\) in terms of the eigendecomposition of functions of \(\boldsymbol{A}\). The left-singular vectors of \(\boldsymbol{A}\) are the eigenvectors of \(\boldsymbol{AA^\top}\). The right-singular vectors of \(\boldsymbol{A}\) are the eigenvectors of \(\boldsymbol{A^\top}A\). The non-zero singular values of \(\boldsymbol{A}\) are the square roots of the eigenvalues of \(\boldsymbol{A^{\top}A}\). The same is true for \(\boldsymbol{A A^\top}\).</p>
+
+<h2 id="toc_9">2.9 The Moore-Penrose Pseudoinverse</h2>
+
+<p>Matrix inversion is not defined for matrices that are not square. Suppose we want to make a left-inverse \(\boldsymbol{B}\) of \(\boldsymbol{A}\), so that we can solve a linear equation<br/>
+\[<br/>
+\boldsymbol{Ax} = \boldsymbol{y}<br/>
+\]<br/>
+by left-multiplying each side to obtain<br/>
+\[<br/>
+\boldsymbol{x}=\boldsymbol{By}<br/>
+\]</p>
+
+<p>Depending on the structure of the problem, it may not be possible to design a unique mapping from \(\boldsymbol{A}\) to \(\boldsymbol{B}\).</p>
+
+<p>If \(\boldsymbol{A}\) is taller than it is wide, then it is possible for this equation to have no solution. If \(\boldsymbol{A}\) is wider than it is tall, then there could be multiple possible solutions.</p>
+
+<p>The <strong>Moore-Penrose pseudoinverse</strong> allow us to make some headway in these cases. The pseudoinverse of \(\boldsymbol{A}\) is defined as a matrix<br/>
+\[<br/>
+\boldsymbol{A}^{+} = \lim_{\alpha \searrow 0}(\boldsymbol{A}^{\top}\boldsymbol{A} + \alpha\boldsymbol{I})^{-1}\boldsymbol{A}^{\top}<br/>
+\]</p>
+
+<p>Practical algorithms for computing the pseudoinverse are not based on this definition, but rather the formula</p>
+
+<p>\[<br/>
+\boldsymbol{A}^{+} = \boldsymbol{VD^{+}U^\top}<br/>
+\]</p>
+
+<p>where \(\boldsymbol{U}\), \(\boldsymbol{D}\) and \(\boldsymbol{V}\) are the singular value decomposition of \(\boldsymbol{A}\), and the pseudoinverse \(\boldsymbol{D^+}\) of a diagonal matrix \(\boldsymbol{D}\) is obtained by taking the reciprocal of its non-zero elements then taking the transpose of the resulting matrix.</p>
+
+<p>When \(\boldsymbol{A}\) has more columns than rows, then solving a linear equation using the pseudoinverse provides one of the many possible solutions. Specifically, it provides the solution \(\boldsymbol{x} = \boldsymbol{A}^+\boldsymbol{y}\) with minimal Euclidean norm \(\|\boldsymbol{x}^2\|\) among all possible solutions.</p>
+
+<p>When \(\boldsymbol{A}\) has more rows than columns, it is possible for there to be no solution. In this case, using the pseudoinverse gives us the \(\boldsymbol{x}\) for which \(\boldsymbol{Ax}\) is as close as possible to \(\boldsymbol{y}\) in terms of Euclidean norm \(\|\boldsymbol{Ax} - \boldsymbol{y}\|\).</p>
+
+<h2 id="toc_10">2.10 The Trace Operator</h2>
+
+<p>The trace operator gives the sum of all of the diagonal entries of a matrix</p>
+
+<p>\[<br/>
+\text{Tr}(\boldsymbol{A}) = \sum_{i}{\boldsymbol{A}_{i, i}}<br/>
+\]</p>
+
+<p>The trace operator provides an alternative way of writing the Frobenius norm of a matrix:<br/>
+\[<br/>
+\|\boldsymbol{A}\|_{F} = \sqrt{\text{Tr}(\boldsymbol{AA}^{\top})}<br/>
+\]</p>
+
+<p>The trace operator is invariant to the transpose operator:<br/>
+\[<br/>
+\text{Tr}(\boldsymbol{A}) = \text{Tr}(\boldsymbol{A}^\top)<br/>
+\]</p>
+
+<p>The trace of a matrix compound of many factors is also invariant to moving the last factor into the first position, if the shapes of the corresponding matrices allow the resulting product to be defined:<br/>
+\[<br/>
+\text{Tr}(\boldsymbol{ABC}) = \text{Tr}(\boldsymbol{CAB}) = \text{Tr}(\boldsymbol{BCA})<br/>
+\]</p>
+
+<p>or more generally,<br/>
+\[<br/>
+\text{Tr}\left(\prod^{n}_{i=1}\boldsymbol{F}^{(i)}\right) = \text{Tr}\left(\boldsymbol{F}^{(n)}\prod_{i=1}^{n-1}\boldsymbol{F}^{(i)}\right)<br/>
+\]</p>
+
+<p>This invariance to cyclic permutation holds even if the resulting product has a different shape. For example, for \(\boldsymbol{A} \in \mathbb{R}^{m \times n}\) and \(\boldsymbol{B} \in \mathbb{R}^{n \times m}\), we have<br/>
+\[<br/>
+\text{Tr}(\boldsymbol{AB}) = \text{Tr}(\boldsymbol{BA})<br/>
+\]<br/>
+even though \(\boldsymbol{AB} \in \mathbb{R}^{m \times m}\) and \(\boldsymbol{BA} \in \mathbb{R}^{n \times n}\).</p>
+
+<p>A scalar is its own trace:<br/>
+\[<br/>
+\alpha = \text{Tr}(\alpha)<br/>
+\]</p>
+
+<h2 id="toc_11">2.11 The Determinant</h2>
+
+<p>The determinant of a square matrix, denoted \(\text{det}(\boldsymbol{A})\), is a function mapping matrices to real scalars. The determinant is equal to the product of all the eigenvalues of the matrix. The absolute value of the determinant can be thought of as a measure of how much multiplication by the matrix expands or contracts space. If the determinant is \(0\), then space is contracted completely along at least one dimension, causing it to lose all of its volume. If the determinant is \(1\), then the transformation preserves volume.</p>
+
+<h2 id="toc_12">2.12 Example: Principal Components Analysis</h2>
+
+<p>One simple machine learning algorithm, <strong>principal compinents analysis</strong> or PCA can be derived using only knowledge of basic linear algebra.</p>
+
+<p>Suppose we have a collection of \(m\) points \(\{\boldsymbol{x^{(1)}},\dots,\boldsymbol{x^{(m)}}\}\) in \(\mathbb{R}^{n}\). Suppose we would like to apply lossy compression to these points. Lossy compression means storing the points in a way that requires less memory but may lose some precision. We would like to lose as little precision as possible.</p>
+
+<p>One way we can encode these points is to represent a lower-dimensional version of them. For each point \(\boldsymbol{x^{(i)}} \in \mathbb{R}^n\) we will find a corresponding code vector \(\boldsymbol{c}^{(i)} \in \mathbb{R}^{l}\). If \(l\) is smaller than \(n\), it will take less memory to store the code points than the original data. We will want to find some <em>encoding function</em> that produces the code for an input, \(f(\boldsymbol{x}) = \boldsymbol{c}\), and a <em>decoding function</em> that produces the reconstructed input given its code, \(\boldsymbol{x} \approx g(f(\boldsymbol{x})).\)</p>
+
+<p>PCA is defined by our choice of the decoding function. Specifically, to make the decoder very simple, we choose to use matrix multiplication to map the code back into \(\mathbb{R}^n\). Let \(g(\boldsymbol{c}) = \boldsymbol{Dc}\), where \(\boldsymbol{D} \in \mathbb{R}^{n \times l}\) is the matrix defining the decoding.</p>
+
+<p>Computing the optimal code for this decoder could be a difficult problem. To keep the encoding problem easy, PCA constrains the columns of \(\boldsymbol{D}\) to be orthogonal to each other.</p>
+
+<p>With the problem as described so far, many solutions are possible, because we can increase the scale of \(\boldsymbol{D}_{:,i}\) if we decrease \(c_i\) proportionally for all points. To give the problem a unique solution, we constrain all of the columns of \(\boldsymbol{D}\) to have unit norm.</p>
+
+<p>In order to turn this basic idea into an algorithm we can implement, the first thing we need to do is figure out how to generate the optimal code point \(\boldsymbol{c}^{*}\) for each input point \(\boldsymbol{x}\). One way to do this is to minimize the distance between the input point \(\boldsymbol{x}\) and its reconstruction, \(g(\boldsymbol{c}^{*})\). We can measure this distance using a norm. In the principal components algorithm, we use the \(L^2\) norm:<br/>
+\[<br/>
+\boldsymbol{c}^* = \arg\,\min_{\boldsymbol{c}}\|\boldsymbol{x} - g(\boldsymbol{c})\|_2<br/>
+\]</p>
+
+<p>We can switch to the squared \(L^2\) norm instead of the \(L^2\) norm itself, because both are minimized by the same value of \(\boldsymbol{c}\). Both are minimized by the same value of \(\boldsymbol{c}\) because the \(L^2\) norm is non-negative and the squaring operation is monotonically increasing for non-negative arguments.<br/>
+\[<br/>
+\boldsymbol{c}^* = \arg\,\min_{\boldsymbol{c}}\|\boldsymbol{x}-g(\boldsymbol{c})\|_{2}^{2}<br/>
+\]</p>
+
+<p>The function being minimized simplifies to <br/>
+\[<br/>
+(\boldsymbol{x} - g(\boldsymbol{c}))^\top(\boldsymbol{x}-g(\boldsymbol{c}))<br/>
+\]<br/>
+(by the definition of the \(L^2\) norm)</p>
+
+<p>\[<br/>
+=\boldsymbol{x}^\top\boldsymbol{x} - \boldsymbol{x}^\top g(\boldsymbol{c}) - g(\boldsymbol{c})^\top\boldsymbol{x} + g(\boldsymbol{c})^\top g(\boldsymbol{c})<br/>
+\]<br/>
+(by the distributive property)</p>
+
+<p>\[<br/>
+=\boldsymbol{x}^\top\boldsymbol{x} - 2\boldsymbol{x}^\top g(\boldsymbol{c}) + g(\boldsymbol{c})^\top g(\boldsymbol{c})<br/>
+\]</p>
+
+<p>(because the scalar \(g(\boldsymbol{c})^\top \boldsymbol{x}\) is equal to the transpose of itself)</p>
+
+<p>We can now change the function being minimized again, to omit the first term, since this term does not depend on \(\boldsymbol{c}\):</p>
+
+<p>\[<br/>
+\boldsymbol{c}^* = \arg\,\min_{\boldsymbol{c}} -2\boldsymbol{x}^\top g(\boldsymbol{c}) + g(\boldsymbol{c})^\top g(\boldsymbol{c})<br/>
+\]</p>
+
+<p>To make further progress, we must substitute in the definition of \(g(\boldsymbol{\boldsymbol{c}})\):</p>
+
+<p>\[<br/>
+\begin{align*}<br/>
+\boldsymbol{c}^* &amp; = \arg\,\min_{\boldsymbol{c}} -2\boldsymbol{x}^\top \boldsymbol{Dc} + \boldsymbol{c}^\top \boldsymbol{D}^\top\boldsymbol{Dc}\\<br/>
+ &amp; = \arg\,\min_{\boldsymbol{c}} -2\boldsymbol{x}^\top \boldsymbol{Dc} + \boldsymbol{c}^\top \boldsymbol{I}_{l}\boldsymbol{c}\\ <br/>
+\end{align*}\]</p>
+
+<p>(by the orthogonality and unit norm constraints on \boldsymbol{D})</p>
+
+<p>\[<br/>
+\begin{align*}<br/>
+ &amp; = \arg\,\min_{\boldsymbol{c}} -2\boldsymbol{x}^\top \boldsymbol{Dc} + \boldsymbol{c}^\top\boldsymbol{c}\\ <br/>
+\end{align*}\]</p>
+
+<p>We can solve this optimization problem using vector calculus:</p>
+
+<p>\[<br/>
+\nabla_{\boldsymbol{c}}(-2\boldsymbol{x}^\top\boldsymbol{Dc} + \boldsymbol{c}^\top\boldsymbol{c}) = \boldsymbol{0}<br/>
+\]</p>
+
+<p>\[<br/>
+-2\boldsymbol{D}^\top\boldsymbol{x} + 2\boldsymbol{c} = \boldsymbol{0}<br/>
+\]</p>
+
+<p>\[<br/>
+\boldsymbol{c} = \boldsymbol{D}^\top \boldsymbol{x}<br/>
+\]</p>
+
+<p>This makes the algorithm efficient: we can optimally encode \(\boldsymbol{x}\) just using a matrix-vector operation. To encode a vector, we apply the encoder function</p>
+
+<p>\[<br/>
+f(\boldsymbol{x}) = \boldsymbol{D}^\top\boldsymbol{x}<br/>
+\]</p>
+
+<p>Using a further matrix multiplication, we can also define the PCA reconstruction operation:</p>
+
+<p>\[<br/>
+\tag{2}\label{2}<br/>
+r(\boldsymbol{x}) = g(f(x)) = \boldsymbol{DD^{\top}x}<br/>
+\]</p>
+
+<p>Next, we need to choose the encoding matrix \(\boldsymbol{D}\). To do so, we revisit the ideas of minimizing the \(L^2\) distance between inputs and reconstructions. Since we will use the same matrix \(\boldsymbol{D}\) to decode all of the points, we can no longer consider the points in isolation. Instead, we must minimize the Frobenius norm of the matrix of errors computed over all dimensions and all points.</p>
+
+<p>\[\tag{3}\label{3}<br/>
+\boldsymbol{D}^* = \arg\,\min_{\boldsymbol{D}} \sqrt{\sum_{i,j}\left(x_{j}^{(i)}-r(\boldsymbol{x^{(i)}})_j\right)^2} \text{subject to } \boldsymbol{D^\top D} = \boldsymbol{I}_{l}<br/>
+\]</p>
+
+<p>To derive the algorithm for finding \(\boldsymbol{D}^*\), we will start by considering the case where \(l=1\). In this case, \(\boldsymbol{D}\) is just a single vector \(\boldsymbol{d}\). Substituting equation \(\eqref{2}\) into \(\eqref{3}\) and simplifying \(\boldsymbol{D}\) into \(\boldsymbol{d}\), the problem reduces to</p>
+
+<p>\[<br/>
+d^* = \arg\,\min_{\boldsymbol{d}} \sum_{i}\|\boldsymbol{x}^{(i)}-\boldsymbol{dd^\top x^{(i)}}\|_{2}^{2} \;\; \text{ subject to } \|\boldsymbol{d}\|_2=1,<br/>
+\]</p>
+
+<p>or exploiting the fact that a scalar is its own transpose, as</p>
+
+<p>\[<br/>
+d^* = \arg\,\min_{\boldsymbol{d}} \sum_{i}\|\boldsymbol{x}^{(i)}- \boldsymbol{x}^{(i)} \boldsymbol{dd^\top }\|_{2}^{2} \;\; \text{ subject to } \|\boldsymbol{d}\|_2=1,<br/>
+\]</p>
+
+<p>At this point, it can be helpful to rewrite the problem in terms of a single design matrix of examples, rather than as a sum over separate example vectors. This allow us to use more compact notation. Let \(\boldsymbol{X} \in \mathbb{R}^{m \times n}\) be the matrix defined by stacking all of the vectors describing the points, such that \(\boldsymbol{X}_{i,:} = \boldsymbol{x}^{(i)\top}\).<br/>
+We can now rewrite the problem as</p>
+
+<p>\[<br/>
+\boldsymbol{d}^* = \arg\,\min_{\boldsymbol{d}} \|\boldsymbol{X}-\boldsymbol{Xdd^\top}\|_{F}^{2}\;\;\text{ subject to } \boldsymbol{d^\top d} = 1<br/>
+\]</p>
+
+<p>Disregarding the constraint for the moment, we can simplify the Frobenius norm portion as follows:</p>
+
+<p>\[<br/>
+\arg\,\min_{\boldsymbol{d}} \|\boldsymbol{X}-\boldsymbol{Xdd^\top}\|^{2}_{F}<br/>
+\]</p>
+
+<p>\[<br/>
+= \arg\,\min_{\boldsymbol{d}} \text{Tr}\left((\boldsymbol{X}-\boldsymbol{Xdd^\top})^\top(\boldsymbol{X}-\boldsymbol{Xdd^\top})\right)<br/>
+\]</p>
+
+<p>\[<br/>
+=\arg\,\min_{\boldsymbol{d}} \text{Tr}(\boldsymbol{X^\top X}-\boldsymbol{X^\top Xdd^\top}-\boldsymbol{dd^\top X^\top X} + \boldsymbol{dd^\top X^\top Xdd^\top})<br/>
+\]</p>
+
+<p>\[<br/>
+=\arg\,\min_{\boldsymbol{d}} \text{Tr}(\boldsymbol{X^\top X}) -\text{Tr}(\boldsymbol{X^\top Xdd^\top}) - \text{Tr}(\boldsymbol{dd^\top X^\top X}) + \text{Tr}(\boldsymbol{dd^\top X^\top Xdd^\top})<br/>
+\]</p>
+
+<p>\[<br/>
+=\arg\,\min_{\boldsymbol{d}} -\text{Tr}(\boldsymbol{X^\top Xdd^\top}) - \text{Tr}(\boldsymbol{dd^\top X^\top X}) + \text{Tr}(\boldsymbol{dd^\top X^\top Xdd^\top})<br/>
+\]</p>
+
+<p>(because terms not involving \(\boldsymbol{d}\) do not affect the \(\arg\,\min\))</p>
+
+<p>\[<br/>
+=\arg\,\min_{\boldsymbol{d}} -2\text{Tr}(\boldsymbol{X^\top Xdd^\top}) + \text{Tr}(\boldsymbol{dd^\top X^\top Xdd^\top})<br/>
+\]</p>
+
+<p>(because we can cycle the order of the matrices inside a trace)</p>
+
+<p>\[<br/>
+=\arg\,\min_{\boldsymbol{d}} -2\text{Tr}(\boldsymbol{X^\top Xdd^\top}) + \text{Tr}(\boldsymbol{X^\top Xdd^\top dd^\top})<br/>
+\]</p>
+
+<p>(as above)</p>
+
+<p>At this point, we re-introduce the constraint:</p>
+
+<p>\[<br/>
+\arg\,\min_{\boldsymbol{d}} -2\text{Tr}(\boldsymbol{X^\top Xdd^\top}) + \text{Tr}(\boldsymbol{X^\top Xdd^\top dd^\top}) \;\; \text{ subject to } \boldsymbol{d^\top d =1}<br/>
+\]</p>
+
+<p>\[<br/>
+\arg\,\min_{\boldsymbol{d}} -2\text{Tr}(\boldsymbol{X^\top Xdd^\top}) + \text{Tr}(\boldsymbol{X^\top Xdd^\top}) \;\; \text{ subject to } \boldsymbol{d^\top d =1}<br/>
+\]</p>
+
+<p>(due to the constraint)</p>
+
+<p>\[<br/>
+\arg\,\min_{\boldsymbol{d}} -\text{Tr}(\boldsymbol{X^\top Xdd^\top}) \;\; \text{ subject to } \boldsymbol{d^\top d =1}<br/>
+\]</p>
+
+<p>\[<br/>
+= \arg\,\max_{\boldsymbol{d}} -\text{Tr}(\boldsymbol{X^\top Xdd^\top}) \;\; \text{ subject to } \boldsymbol{d^\top d =1}<br/>
+\]</p>
+
+<p>\[<br/>
+= \arg\,\max_{\boldsymbol{d}} -\text{Tr}(\boldsymbol{d^\top X^\top Xd}) \;\; \text{ subject to } \boldsymbol{d^\top d =1}<br/>
+\]</p>
+
+<p>This optimization problem may be solved using eigendecomposition. Specifically, the optimal \(\boldsymbol{d}\) is given by the eigenvector of \(\boldsymbol{X}^\top \boldsymbol{X}\) corresponding to the largest eigenvalue.</p>
+
+<p>This derivation is specific to the case of \(l=1\) and recovers only the first  principal components, the matrix \(\boldsymbol{D}\) is given by the \(l\) eigenvectors corresponding to the largest eigenvalues. This is may be shown using proof by induction.</p>
+
+<p>(END OF CHAPTER 2)</p>
+
+</div></body>
+
+</html>
